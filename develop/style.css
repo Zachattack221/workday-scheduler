@@ -24,6 +24,11 @@ textarea {
   font-size: 2rem;
 }
 
+.container .row{
+  border: 1px dotted black;
+  padding: 15px;
+}
+
 .description {
   white-space: pre-wrap;
 }
@@ -43,6 +48,12 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+}
+
+/* made save icon, class .save slightly larger for aesthetics */
+
+.save {
+  font-size: 2rem;
 }
 
 .past {
