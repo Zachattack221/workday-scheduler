@@ -50,11 +50,11 @@ textarea {
   border-top: 1px dashed #000000;
 }
 
-/* made save icon, class .save slightly larger for aesthetics */
+made save icon, class .save slightly larger for aesthetics
 
-.save {
+/* .save {
   font-size: 2rem;
-}
+} */
 
 .past {
   background-color: #d3d3d3;
