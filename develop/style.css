@@ -20,6 +20,9 @@ textarea {
   border-radius: 0;
   border-bottom: 10px solid black;
 }
+.lead {
+  font-size: 2rem;
+}
 
 .description {
   white-space: pre-wrap;
