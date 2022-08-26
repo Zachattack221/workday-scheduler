@@ -24,18 +24,15 @@ textarea {
   font-size: 2rem;
 }
 
-.container .row{
-  border: 1px dotted black;
-  padding: 15px;
+.container .notes {
+  border: 1px dashed black;
+  white-space: pre-wrap;
+  height: 80px;
+  padding: 5px 0px;
 }
 
 .description {
   white-space: pre-wrap;
-}
-
-.time-block {
-  text-align: center;
-  border-radius: 15px;
 }
 
 .row {
@@ -49,12 +46,6 @@ textarea {
   color: #000000;
   border-top: 1px dashed #000000;
 }
-
-made save icon, class .save slightly larger for aesthetics
-
-/* .save {
-  font-size: 2rem;
-} */
 
 .past {
   background-color: #d3d3d3;

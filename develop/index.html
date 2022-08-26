@@ -12,59 +12,57 @@
   <link rel="stylesheet" href="style.css" />
   <title>Work Day Scheduler</title>
 </head>
-
 <body>
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
     <p id="currentDay" class="lead"></p>
   </header>
-  <!-- purposefully added fa-3x to end of save icon for better aesthetics on page -->
   <div class="container">
-    <div data-id="9am" class="row">
-      <div class="col-1 p-2">9 a.m.</div>
-      <textarea class="col-10 notes">Test Words</textarea>
-      <div class="col-1 save"><i class="fas fa-save fa-3x"></i></div>
-    </div>
-    <div data-id="10am" class="row">
-      <div class="col-1 p-2">10 a.m.</div>
+    <div data-id="9" class="row">
+      <div class="col-1 p-2 hour text-center">9 a.m.</div>
       <textarea class="col-10 notes"></textarea>
-      <div class="col-1 save"><i class="fas fa-save fa-3x"></i></div>
+      <div class="col-1 saveBtn d-flex align-items-center justify-content-center"><i class="fas fa-save"></i></div>
     </div>
-    <div data-id="11am" class="row">
-      <div class="col-1 p-2">11 a.m.</div>
+    <div data-id="10" class="row">
+      <div class="col-1 p-2 hour text-center">10 a.m.</div>
       <textarea class="col-10 notes"></textarea>
-      <div class="col-1 save"><i class="fas fa-save fa-3x"></i></div>
+      <div class="col-1 saveBtn d-flex align-items-center justify-content-center"><i class="fas fa-save"></i></div>
     </div>
-    <div data-id="12pm" class="row">
-      <div class="col-1 p-2">12 p.m.</div>
+    <div data-id="11" class="row">
+      <div class="col-1 p-2 hour text-center">11 a.m.</div>
       <textarea class="col-10 notes"></textarea>
-      <div class="col-1 save"><i class="fas fa-save fa-3x"></i></div>
+      <div class="col-1 saveBtn d-flex align-items-center justify-content-center"><i class="fas fa-save"></i></div>
     </div>
-    <div data-id="1pm" class="row">
-      <div class="col-1 p-2">1 p.m.</div>
+    <div data-id="12" class="row">
+      <div class="col-1 p-2 hour text-center">12 p.m.</div>
       <textarea class="col-10 notes"></textarea>
-      <div class="col-1 save"><i class="fas fa-save fa-3x"></i></div>
+      <div class="col-1 saveBtn d-flex align-items-center justify-content-center"><i class="fas fa-save"></i></div>
     </div>
-    <div data-id="2pm" class="row">
-      <div class="col-1 p-2">2 p.m.</div>
+    <div data-id="13" class="row">
+      <div class="col-1 p-2 hour text-center">1 p.m.</div>
       <textarea class="col-10 notes"></textarea>
-      <div class="col-1 save"><i class="fas fa-save fa-3x"></i></div>
+      <div class="col-1 saveBtn d-flex align-items-center justify-content-center"><i class="fas fa-save"></i></div>
     </div>
-    <div data-id="3pm" class="row">
-      <div class="col-1 p-2">3 p.m.</div>
+    <div data-id="14" class="row">
+      <div class="col-1 p-2 hour text-center">2 p.m.</div>
       <textarea class="col-10 notes"></textarea>
-      <div class="col-1 save"><i class="fas fa-save fa-3x"></i></div>
+      <div class="col-1 saveBtn d-flex align-items-center justify-content-center"><i class="fas fa-save"></i></div>
     </div>
-    <div data-id="4pm" class="row">
-      <div class="col-1 p-2">4 p.m.</div>
+    <div data-id="15" class="row">
+      <div class="col-1 p-2 hour text-center">3 p.m.</div>
       <textarea class="col-10 notes"></textarea>
-      <div class="col-1 save"><i class="fas fa-save fa-3x"></i></div>
+      <div class="col-1 saveBtn d-flex align-items-center justify-content-center"><i class="fas fa-save"></i></div>
     </div>
-    <div data-id="5pm" class="row">
-      <div class="col-1 p-2">5 p.m.</div>
+    <div data-id="16" class="row">
+      <div class="col-1 p-2 hour text-center">4 p.m.</div>
       <textarea class="col-10 notes"></textarea>
-      <div class="col-1 save"><i class="fas fa-save fa-3x"></i></div>
+      <div class="col-1 saveBtn d-flex align-items-center justify-content-center"><i class="fas fa-save"></i></div>
+    </div>
+    <div data-id="17" class="row">
+      <div class="col-1 p-2 hour text-center">5 p.m.</div>
+      <textarea class="col-10 notes"></textarea>
+      <div class="col-1 saveBtn d-flex align-items-center justify-content-center"><i class="fas fa-save"></i></div>
     </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
